@@ -1,0 +1,14 @@
+ 
+ Get ith bit
+          n & (1<<i)  i=ith position
+ 
+
+
+
+ Set ith bit  
+             n | (1<<i)  to set 0 as 1 at ith position
+
+
+
+ Clear ith bit 
+            n & ~(1<<i)      
