@@ -9,9 +9,9 @@ public class binaryStringProblem {
         }
 
         //kaam
-        printString(n-1, 0, str+="0");
-        if(lastPlace==1){
-            printString(n-1, 1, str+="1");
+        printString(n-1, 0, str+"0");
+        if(lastPlace==0){
+            printString(n-1, 1, str+"1");
 
 
         }
@@ -20,8 +20,8 @@ public class binaryStringProblem {
     }
 
     public static void main(String args[]){
-        int n =3;
-        printString(n, 0, "");
+       
+        printString(3, 0, "");
 
     }
     
