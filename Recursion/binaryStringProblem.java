@@ -8,7 +8,7 @@ public class binaryStringProblem {
             return;
         }
 
-        //kaam
+        //kaam 
         printString(n-1, 0, str+"0");
         if(lastPlace==0){
             printString(n-1, 1, str+"1");
