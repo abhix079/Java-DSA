@@ -7,7 +7,7 @@ public class CompareTo {
         String s3= "random";
         System.out.println(s1.compareTo(s2));
         System.out.println(s1==s2);
-        System.out.println(s1.compareTo(s3));
+        System.out.println(s1.compareTo(s3)); // for lexographical comparison
     }
 
     
