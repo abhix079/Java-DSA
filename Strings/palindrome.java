@@ -4,7 +4,7 @@ public class palindrome {
         StringBuilder sb = new StringBuilder(str);
 
         String gt=sb.reverse()+"";
-        if (str.equals(gt)){
+        if (str.equals(sb)){
             System.out.println("Palindrome");
         }
         else{
