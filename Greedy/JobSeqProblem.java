@@ -35,9 +35,10 @@ public class JobSeqProblem {
             }
         }
 //print seq
-System.out.println("Maximum job : " + seq.size());
+
+System.out.println("Maximum jobs: "+seq.size());
 for(int i =0;i<seq.size();i++){
-System.out.print("Job"+seq.get(i)+" ");
+    System.out.print("Job"+seq.get(i)+" ");
 }
 
 
