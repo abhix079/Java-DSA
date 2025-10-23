@@ -1,3 +1,1 @@
-public class TreeMaking {
-    
-}
+//In this we will make the binary tree from scratch
